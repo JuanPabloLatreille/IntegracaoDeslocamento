@@ -2,10 +2,9 @@
 
 public class EditarClienteDTO
 {
-    public EditarClienteDTO(int id, string tipoDocumento, string nome, string logradouro, string numero, string bairro, string cidade, string uf)
+    public EditarClienteDTO(int id, string nome, string logradouro, string numero, string bairro, string cidade, string uf)
     {
         Id = id;
-        TipoDocumento = tipoDocumento;
         Nome = nome;
         Logradouro = logradouro;
         Numero = numero;
@@ -15,8 +14,6 @@ public class EditarClienteDTO
     }
 
     public int Id { get; set; }
-
-    public string TipoDocumento { get; set; }
 
     public string Nome { get; set; }
 
