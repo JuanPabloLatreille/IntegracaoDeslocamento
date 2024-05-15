@@ -2,7 +2,7 @@
 
 public class EditarCondutorDTO
 {
-    public EditarCondutorDTO(int id, string nome, string numeroHabilitacao, string categoriaHabilitacao, DateTime vencimentoHabilitacao)
+    public EditarCondutorDTO(int id, string categoriaHabilitacao, DateTime vencimentoHabilitacao)
     {
         Id = id;
         CategoriaHabilitacao = categoriaHabilitacao;
